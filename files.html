@@ -1,0 +1,413 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="stylesheet" href="css/index.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+      integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="icon" href="images/avatar.png" />
+    <title>Dashboard</title>
+  </head>
+
+  <body>
+    <div class="main-flex">
+        <aside class="aside flex-col">
+        <div class="elzero">
+          <h2>Elzero</h2>
+          <div class="ball"></div>
+        </div>
+        <ul class="list_parent flex-col">
+          <li class="list_item">
+            <a href="index.html"
+              ><i class="fa-regular fa-chart-bar" style="color: #000000"></i
+            ></a>
+            <a href="index.html" class="list_link fs-300">Dashboard</a>
+          </li>
+          <li class="list_item">
+            <a href="settings.html"
+              ><i class="fa-solid fa-gear" style="color: #000000"></i
+            ></a>
+            <a href="settings.html" class="list_link fs-300">Setting</a>
+          </li>
+          <li class="list_item">
+            <a href="profile.html"
+              ><i class="fa-regular fa-user" style="color: #000000"></i
+            ></a>
+            <a href="profile.html" class="list_link fs-300">profile</a>
+          </li>
+          <li class="list_item">
+            <a href="projects.html"
+              ><i class="fa-solid fa-diagram-project" style="color: #000000"></i
+            ></a>
+            <a href="projects.html" class="list_link fs-300">projects</a>
+          </li>
+          <li class="list_item">
+            <a href="courses.html"
+              ><i class="fa-solid fa-graduation-cap" style="color: #000000"></i
+            ></a>
+            <a href="courses.html" class="list_link fs-300">courses</a>
+          </li>
+          <li class="list_item">
+            <a href="frinds.html"
+              ><i class="fa-regular fa-circle-user" style="color: #000000"></i
+            ></a>
+            <a href="frinds.html" class="list_link fs-300">friends</a>
+          </li>
+          <li class="list_item active">
+            <a href="files.html"
+              ><i class="fa-regular fa-file" style="color: #000000"></i
+            ></a>
+            <a href="files.html" class="list_link fs-300">files</a>
+          </li>
+          <li class="list_item">
+            <a href="plans.html"
+              ><i class="fa-regular fa-credit-card" style="color: #000000"></i
+            ></a>
+            <a href="plans.html" class="list_link fs-300">plans</a>
+          </li>
+        </ul>
+        </aside>
+        <div class="content">
+            <nav class="nav container nav-flex">
+          <form>
+            <i class="fa-solid fa-magnifying-glass" style="color: #888888"></i>
+            <input type="text" placeholder="Type A Keyword" />
+          </form>
+          <div class="wrapper">
+            <span class="bell"><i class="fa-regular fa-bell"></i></span>
+            <span><img src="images/avatar.p" alt="a person img" /></span>
+          </div>
+            </nav>
+            <main class="container">
+              <h1>Files</h1>
+              <div class="files-grid">
+              <div class="file-statistics p-20">
+                <h2 class="txt-aligner mb-3">Files Statistics</h2>
+                  <div class="flex-col-gap5">
+                    <div class="flex-spaced p-10">
+                      <div class="flex-row-gap5">
+                        <div class="file-stats pdf very-light-blue"><i class="fa-regular fa-file-pdf" style="color: #0075ff;"></i></div>
+                        <div>
+                           <div class="fs-350">PDF Files</div>
+                           <p class="gray-text fs-200">130</p>
+                        </div>
+                      </div>
+                      <p class="gray-text fs-200">6.5GB</p>
+                    </div>
+                    <div class="flex-spaced p-10">
+                      <div class="flex-row-gap5">
+                        <div class="file-stats images very-light-green"><i class="fa-regular fa-image" style="color: #22c55e;"></i></div>
+                        <div>
+                           <div class="fs-350">Images</div>
+                           <p class="gray-text fs-200">115 Files</p>
+                        </div>
+                      </div>
+                      <p class="gray-text fs-200">3.5GB</p>
+                    </div>
+                    <div class="flex-spaced p-10">
+                      <div class="flex-row-gap5">
+                        <div class="file-stats word very-light-red"><i class="fa-regular fa-file-word" style="color: #f44336;"></i></div>
+                        <div>
+                           <div class="fs-350">Word Files</div>
+                           <p class="gray-text fs-200">110 Files</p>
+                        </div>
+                      </div>
+                      <p class="gray-text fs-200">3.2GB</p>
+                    </div>
+                    <div class="flex-spaced p-10">
+                      <div class="flex-row-gap5">
+                        <div class="file-stats csv very-light-orange"><i class="fa-solid fa-file-csv" style="color: #f59e0b;"></i></div>
+                        <div>
+                           <div class="fs-350">CSV Files</div>
+                           <p class="gray-text fs-200">99 Files</p>
+                        </div>
+                      </div>
+                      <p class="gray-text fs-200">2.9GB</p>
+                    </div>
+                  </div>
+                  <button class="btn upload bg-blue">
+                    <i class="fa-solid fa-angles-up"></i>Upload</button>
+              </div>
+                <div class="smaller_card_parent">
+                    <div class="smaller-card p-15 pdf">
+                        <span><i class="fa-solid fa-download" style="color: #888888;"></i></span>
+                        <span class="file-type"><img src="images/pdf.svg" alt="file-type"></span>
+                        <div class="txt-center mb-1">my-file.pdf</div>
+                        <p class="gray-text fs-200">Elzero</p>
+                        <hr>
+                        <div class="flex-spaced">
+                            <p class="gray-text fs-200">20/06/2020</p>
+                            <p class="gray-text fs-200">5.5MB</p>
+                        </div>
+                    </div>
+                    <div class="smaller-card p-15 avi">
+                        <span><i class="fa-solid fa-download" style="color: #888888;"></i></span>
+                        <span class="file-type"><img src="images/avi.svg" alt="file-type"></span>
+                        <div class="txt-center mb-1">my-file.avi</div>
+                        <p class="gray-text fs-200">Admin</p>
+                        <hr>
+                        <div class="flex-spaced">
+                            <p class="gray-text fs-200">16/5/2021</p>
+                            <p class="gray-text fs-200">12.5MB</p>
+                        </div>
+                    </div>
+                    <div class="smaller-card p-15 eps">
+                        <span><i class="fa-solid fa-download" style="color: #888888;"></i></span>
+                        <span class="file-type"><img src="images/eps.svg" alt="file-type"></span>
+                        <div class="txt-center mb-1">my-file.eps</div>
+                        <p class="gray-text fs-200">Uploader</p>
+                        <hr>
+                        <div class="flex-spaced">
+                            <p class="gray-text fs-200">16/5/2021</p>
+                            <p class="gray-text fs-200">2.7MB</p>
+                        </div>
+                    </div>
+                    <div class="smaller-card p-15 psd">
+                        <span><i class="fa-solid fa-download" style="color: #888888;"></i></span>
+                        <span class="file-type"><img src="images/psd.svg" alt="file-type"></span>
+                        <div class="txt-center mb-1">my-file.psd</div>
+                        <p class="gray-text fs-200">Osama</p>
+                        <hr>
+                        <div class="flex-spaced">
+                            <p class="gray-text fs-200">20/06/2020</p>
+                            <p class="gray-text fs-200">5.5MB</p>
+                        </div>
+                    </div>
+                    <div class="smaller-card p-15 pdf">
+                        <span><i class="fa-solid fa-download" style="color: #888888;"></i></span>
+                        <span class="file-type"><img src="images/pdf.svg" alt="file-type"></span>
+                        <div class="txt-center mb-1">my-file.pdf</div>
+                        <p class="gray-text fs-200">Elzero</p>
+                        <hr>
+                        <div class="flex-spaced">
+                            <p class="gray-text fs-200">16/5/2021</p>
+                            <p class="gray-text fs-200">15.1MB</p>
+                        </div>
+                    </div>
+                    <div class="smaller-card p-15 dll">
+                        <span><i class="fa-solid fa-download" style="color: #888888;"></i></span>
+                        <span class="file-type"><img src="images/dll.svg" alt="file-type"></span>
+                        <div class="txt-center mb-1">my-file.dll</div>
+                        <p class="gray-text fs-200">Coder</p>
+                        <hr>
+                        <div class="flex-spaced">
+                            <p class="gray-text fs-200">16/5/2021</p>
+                            <p class="gray-text fs-200">2.2MB</p>
+                        </div>
+                    </div>
+                    <div class="smaller-card p-15 psd">
+                      <span><i class="fa-solid fa-download" style="color: #888888;"></i></span>
+                      <span class="file-type"><img src="images/psd.svg" alt="file-type"></span>
+                      <div class="txt-center mb-1">my-file.psd</div>
+                      <p class="gray-text fs-200">Osama</p>
+                      <hr>
+                      <div class="flex-spaced">
+                          <p class="gray-text fs-200">20/06/2020</p>
+                          <p class="gray-text fs-200">5.5MB</p>
+                      </div>
+                    </div>
+                    <div class="smaller-card p-15 eps">
+                    <span><i class="fa-solid fa-download" style="color: #888888;"></i></span>
+                    <span class="file-type"><img src="images/eps.svg" alt="file-type"></span>
+                    <div class="txt-center mb-1">my-file.eps</div>
+                    <p class="gray-text fs-200">Uploader</p>
+                    <hr>
+                    <div class="flex-spaced">
+                        <p class="gray-text fs-200">16/5/2021</p>
+                        <p class="gray-text fs-200">2.7MB</p>
+                    </div>
+                    </div>
+                    <div class="smaller-card p-15 dll">
+                    <span><i class="fa-solid fa-download" style="color: #888888;"></i></span>
+                    <span class="file-type"><img src="images/dll.svg" alt="file-type"></span>
+                    <div class="txt-center mb-1">my-file.dll</div>
+                    <p class="gray-text fs-200">Coder</p>
+                    <hr>
+                    <div class="flex-spaced">
+                        <p class="gray-text fs-200">16/5/2021</p>
+                        <p class="gray-text fs-200">2.2MB</p>
+                    </div>
+                    </div>
+                    <div class="smaller-card p-15 pdf">
+                  <span><i class="fa-solid fa-download" style="color: #888888;"></i></span>
+                  <span class="file-type"><img src="images/pdf.svg" alt="file-type"></span>
+                  <div class="txt-center mb-1">my-file.pdf</div>
+                  <p class="gray-text fs-200">Elzero</p>
+                  <hr>
+                  <div class="flex-spaced">
+                      <p class="gray-text fs-200">16/5/2021</p>
+                      <p class="gray-text fs-200">15.1MB</p>
+                  </div>
+                    </div>
+                    <div class="smaller-card p-15 pdf">
+                      <span><i class="fa-solid fa-download" style="color: #888888;"></i></span>
+                      <span class="file-type"><img src="images/pdf.svg" alt="file-type"></span>
+                      <div class="txt-center mb-1">my-file.pdf</div>
+                      <p class="gray-text fs-200">Elzero</p>
+                      <hr>
+                      <div class="flex-spaced">
+                          <p class="gray-text fs-200">20/06/2020</p>
+                          <p class="gray-text fs-200">5.5MB</p>
+                      </div>
+
+                    </div>
+                    <div class="smaller-card p-15 avi">
+                      <span><i class="fa-solid fa-download" style="color: #888888;"></i></span>
+                      <span class="file-type"><img src="images/avi.svg" alt="file-type"></span>
+                      <div class="txt-center mb-1">my-file.avi</div>
+                      <p class="gray-text fs-200">Admin</p>
+                      <hr>
+                      <div class="flex-spaced">
+                          <p class="gray-text fs-200">16/5/2021</p>
+                          <p class="gray-text fs-200">12.5MB</p>
+                      </div>
+                    </div>
+                    <div class="smaller-card p-15 eps">
+                    <span><i class="fa-solid fa-download" style="color: #888888;"></i></span>
+                    <span class="file-type"><img src="images/eps.svg" alt="file-type"></span>
+                    <div class="txt-center mb-1">my-file.eps</div>
+                    <p class="gray-text fs-200">Uploader</p>
+                    <hr>
+                    <div class="flex-spaced">
+                        <p class="gray-text fs-200">16/5/2021</p>
+                        <p class="gray-text fs-200">2.7MB</p>
+                    </div>
+                    </div>
+                    <div class="smaller-card p-15 psd">
+                    <span><i class="fa-solid fa-download" style="color: #888888;"></i></span>
+                    <span class="file-type"><img src="images/psd.svg" alt="file-type"></span>
+                    <div class="txt-center mb-1">my-file.psd</div>
+                    <p class="gray-text fs-200">Osama</p>
+                    <hr>
+                    <div class="flex-spaced">
+                        <p class="gray-text fs-200">20/06/2020</p>
+                        <p class="gray-text fs-200">5.5MB</p>
+                    </div>
+                    </div>
+                    <div class="smaller-card p-15 dll">
+                    <span><i class="fa-solid fa-download" style="color: #888888;"></i></span>
+                    <span class="file-type"><img src="images/pdf.svg" alt="file-type"></span>
+                    <div class="txt-center mb-1">my-file.pdf</div>
+                    <p class="gray-text fs-200">Elzero</p>
+                    <hr>
+                    <div class="flex-spaced">
+                        <p class="gray-text fs-200">16/5/2021</p>
+                        <p class="gray-text fs-200">15.1MB</p>
+                    </div>
+                    </div>
+                    <div class="smaller-card p-15 png">
+                    <span><i class="fa-solid fa-download" style="color: #888888;"></i></span>
+                    <span class="file-type"><img src="images/dll.svg" alt="file-type"></span>
+                    <div class="txt-center mb-1">my-file.dll</div>
+                    <p class="gray-text fs-200">Coder</p>
+                    <hr>
+                    <div class="flex-spaced">
+                        <p class="gray-text fs-200">16/5/2021</p>
+                        <p class="gray-text fs-200">2.2MB</p>
+                    </div>
+                    </div>
+                    <div class="smaller-card p-15 psd">
+                  <span><i class="fa-solid fa-download" style="color: #888888;"></i></span>
+                  <span class="file-type"><img src="images/psd.svg" alt="file-type"></span>
+                  <div class="txt-center mb-1">my-file.psd</div>
+                  <p class="gray-text fs-200">Osama</p>
+                  <hr>
+                  <div class="flex-spaced">
+                      <p class="gray-text fs-200">20/06/2020</p>
+                      <p class="gray-text fs-200">5.5MB</p>
+                  </div>
+                    </div>
+                    <div class="smaller-card p-15 pdf">
+                    <span><i class="fa-solid fa-download" style="color: #888888;"></i></span>
+                    <span class="file-type"><img src="images/pdf.svg" alt="file-type"></span>
+                    <div class="txt-center mb-1">my-file.pdf</div>
+                    <p class="gray-text fs-200">Elzero</p>
+                    <hr>
+                    <div class="flex-spaced">
+                        <p class="gray-text fs-200">20/06/2020</p>
+                        <p class="gray-text fs-200">5.5MB</p>
+                    </div>
+                    </div>
+                    <div class="smaller-card p-15 avi">
+                    <span><i class="fa-solid fa-download" style="color: #888888;"></i></span>
+                    <span class="file-type"><img src="images/avi.svg" alt="file-type"></span>
+                    <div class="txt-center mb-1">my-file.avi</div>
+                    <p class="gray-text fs-200">Admin</p>
+                    <hr>
+                    <div class="flex-spaced">
+                        <p class="gray-text fs-200">16/5/2021</p>
+                        <p class="gray-text fs-200">12.5MB</p>
+                    </div>
+                    </div>
+                    <div class="smaller-card p-15 eps">
+                    <span><i class="fa-solid fa-download" style="color: #888888;"></i></span>
+                    <span class="file-type"><img src="images/eps.svg" alt="file-type"></span>
+                    <div class="txt-center mb-1">my-file.eps</div>
+                    <p class="gray-text fs-200">Uploader</p>
+                    <hr>
+                    <div class="flex-spaced">
+                        <p class="gray-text fs-200">16/5/2021</p>
+                        <p class="gray-text fs-200">2.7MB</p>
+                    </div>
+                    </div>
+                    <div class="smaller-card p-15 dll">
+                    <span><i class="fa-solid fa-download" style="color: #888888;"></i></span>
+                    <span class="file-type"><img src="images/pdf.svg" alt="file-type"></span>
+                    <div class="txt-center mb-1">my-file.pdf</div>
+                    <p class="gray-text fs-200">Elzero</p>
+                    <hr>
+                    <div class="flex-spaced">
+                        <p class="gray-text fs-200">16/5/2021</p>
+                        <p class="gray-text fs-200">15.1MB</p>
+                    </div>
+                    </div>
+                    <div class="smaller-card p-15 png">
+                    <span><i class="fa-solid fa-download" style="color: #888888;"></i></span>
+                    <span class="file-type"><img src="images/dll.svg" alt="file-type"></span>
+                    <div class="txt-center mb-1">my-file.dll</div>
+                    <p class="gray-text fs-200">Coder</p>
+                    <hr>
+                    <div class="flex-spaced">
+                        <p class="gray-text fs-200">16/5/2021</p>
+                        <p class="gray-text fs-200">2.2MB</p>
+                    </div>
+                    </div>
+                    <div class="smaller-card p-15 eps">
+                    <span><i class="fa-solid fa-download" style="color: #888888;"></i></span>
+                    <span class="file-type"><img src="images/eps.svg" alt="file-type"></span>
+                    <div class="txt-center mb-1">my-file.eps</div>
+                    <p class="gray-text fs-200">Uploader</p>
+                    <hr>
+                    <div class="flex-spaced">
+                        <p class="gray-text fs-200">16/5/2021</p>
+                        <p class="gray-text fs-200">2.7MB</p>
+                    </div>
+                    </div>
+                    <div class="smaller-card p-15 psd">
+                    <span><i class="fa-solid fa-download" style="color: #888888;"></i></span>
+                    <span class="file-type"><img src="images/psd.svg" alt="file-type"></span>
+                    <div class="txt-center mb-1">my-file.psd</div>
+                    <p class="gray-text fs-200">Osama</p>
+                    <hr>
+                    <div class="flex-spaced">
+                        <p class="gray-text fs-200">20/06/2020</p>
+                        <p class="gray-text fs-200">5.5MB</p>
+                    </div>
+                   </div>
+             </div>
+           </main>
+      </div>
+    </div>
+  </body>

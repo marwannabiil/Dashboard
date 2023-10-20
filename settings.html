@@ -1,0 +1,362 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Enter The Settings"
+      <link
+      rel="preconnect"
+      href="https://fonts.googleapis.com"
+    />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="stylesheet" href="css/index.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+      integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="icon" href="images/avatar.png" />
+    <title>Settings</title>
+  </head>
+
+  <body>
+    <div class="main-flex">
+      <aside class="aside flex-col">
+        <div class="elzero">
+          <h2>Elzero</h2>
+          <div class="ball"></div>
+        </div>
+        <ul class="list_parent flex-col">
+          <li class="list_item">
+            <a href="index.html"
+              ><i class="fa-regular fa-chart-bar" style="color: #000000"></i
+            ></a>
+            <a href="index.html" class="list_link fs-300">Dashboard</a>
+          </li>
+          <li class="list_item active">
+            <a href="settings.html"
+              ><i class="fa-solid fa-gear" style="color: #000000"></i
+            ></a>
+            <a href="settings.html" class="list_link fs-300">Setting</a>
+          </li>
+          <li class="list_item">
+            <a href="profile.html"
+              ><i class="fa-regular fa-user" style="color: #000000"></i
+            ></a>
+            <a href="profile.html" class="list_link fs-300">profile</a>
+          </li>
+          <li class="list_item">
+            <a href="projects.html"
+              ><i class="fa-solid fa-diagram-project" style="color: #000000"></i
+            ></a>
+            <a href="projects.html" class="list_link fs-300">projects</a>
+          </li>
+          <li class="list_item">
+            <a href="courses.html"
+              ><i class="fa-solid fa-graduation-cap" style="color: #000000"></i
+            ></a>
+            <a href="courses.html" class="list_link fs-300">courses</a>
+          </li>
+          <li class="list_item">
+            <a href="frinds.html"
+              ><i class="fa-regular fa-circle-user" style="color: #000000"></i
+            ></a>
+            <a href="frinds.html" class="list_link fs-300">friends</a>
+          </li>
+          <li class="list_item">
+            <a href="files.html"
+              ><i class="fa-regular fa-file" style="color: #000000"></i
+            ></a>
+            <a href="files.html" class="list_link fs-300">files</a>
+          </li>
+          <li class="list_item">
+            <a href="plans.html"
+              ><i class="fa-regular fa-credit-card" style="color: #000000"></i
+            ></a>
+            <a href="plans.html" class="list_link fs-300">plans</a>
+          </li>
+        </ul>
+      </aside>
+      <div class="content">
+        <nav class="nav container nav-flex">
+          <form>
+            <i class="fa-solid fa-magnifying-glass" style="color: #888888"></i>
+            <input type="text" placeholder="Type A Keyword" />
+          </form>
+          <div class="wrapper">
+            <span class="bell"><i class="fa-regular fa-bell"></i></span>
+            <span><img src="images/avatar.png" alt="a person img" /></span>
+          </div>
+        </nav>
+        <main class="container">
+          <h1>Settings</h1>
+          <div class="card_parent">
+            <div class="card site-control">
+              <div class="card-hero-text">
+                <h2 class="card-title">Site Control</h2>
+                <p class="gray-text fs-350">
+                  Control The Website If There Is Maintenance
+                </p>
+              </div>
+              <div class="flex-spaced">
+                <div class="toggle-text">
+                  <div>Website control</div>
+                  <p class="gray-text fs-300">
+                    Open/Close Website And Type The Reason
+                  </p>
+                </div>
+                <div class="toggle-switch-parent">
+                  <input type="checkbox" checked />
+                  <div class="toggle-switch transition">
+                    <div class="circle transition">
+                      <i
+                        class="fa-solid fa-xmark not-checked"
+                        style="color: #cccccc"
+                      ></i>
+                      <i
+                        class="fa-solid fa-check checked"
+                        style="color: #0075ff"
+                      ></i>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <textarea placeholder="close message content "></textarea>
+            </div>
+            <div class="card general-info">
+              <div class="card-hero-text">
+                <h2 class="card-title">General Info</h2>
+                <p class="gray-text fs-350">
+                  General Information About Your Account
+                </p>
+              </div>
+              <form class="gray-text">
+                <div class="flex-col">
+                  <label for="first name">first name</label>
+                  <input type="text" placeholder="first name" id="first name" />
+                </div>
+                <div class="flex-col">
+                  <label for="last">last name</label>
+                  <input type="text" placeholder="last name" id="last" />
+                </div>
+                <div class="flex-col">
+                  <label for="email">email</label>
+                  <div class="wrapper">
+                    <input
+                      type="email"
+                      disabled
+                      value="nabilmarwan@gmail.com"
+                      name="email"
+                    />
+                    <div class="email-text">change</div>
+                  </div>
+                </div>
+              </form>
+            </div>
+            <div class="card security-card">
+              <div class="card-hero-text">
+                <h2 class="card-title">Security Info</h2>
+                <p class="gray-text fs-200">
+                  Security Information About Your Account
+                </p>
+              </div>
+              <div class="flex-spaced-parent">
+                <div class="flex-spaced">
+                  <div>
+                    <div>Password</div>
+                    <p class="gray-text fs-200">Last Change On 25/10/2021</p>
+                  </div>
+                  <button class="btn bg-blue">change</button>
+                </div>
+                <hr />
+                <div class="flex-spaced">
+                  <div class="toggle-text">
+                    <div>Two-Factor Authentication</div>
+                    <p class="gray-text fs-200">Enable/Disable The Feature</p>
+                  </div>
+                  <div class="toggle-switch-parent">
+                    <input type="checkbox" checked />
+                    <div class="toggle-switch transition">
+                      <div class="circle transition">
+                        <i
+                          class="fa-solid fa-xmark not-checked"
+                          style="color: #cccccc"
+                        ></i>
+                        <i
+                          class="fa-solid fa-check checked"
+                          style="color: #0075ff"
+                        ></i>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <hr />
+                <div class="flex-spaced">
+                  <div>
+                    <div>Devices</div>
+                    <p class="gray-text fs-300">Check The Login Devices List</p>
+                  </div>
+                  <div class="btn-shaped">Devices</div>
+                </div>
+              </div>
+            </div>
+            <div class="card social-info">
+              <div class="card-hero-text">
+                <h2 class="card-title">Social Info</h2>
+                <p class="gray-text fs-350">Social Media Information</p>
+              </div>
+              <div class="flex-row bg-grey">
+                <input
+                  type="text"
+                  class="bg-grey"
+                  placeholder="Twitter Username"
+                />
+                <div class="platform-box bg-grey">
+                  <i class="fa-brands fa-twitter" style="color: #888888"></i>
+                </div>
+              </div>
+              <div class="flex-row bg-grey">
+                <input
+                  type="text"
+                  class="bg-grey"
+                  placeholder="Facebook Username"
+                />
+                <div class="platform-box bg-grey">
+                  <i class="fa-brands fa-facebook-f" style="color: #888888"></i>
+                </div>
+              </div>
+              <div class="flex-row bg-grey">
+                <input
+                  type="text"
+                  class="bg-grey"
+                  placeholder="Linkedin Username"
+                />
+                <div class="platform-box bg-grey">
+                  <i class="fa-brands fa-linkedin" style="color: #888888"></i>
+                </div>
+              </div>
+              <div class="flex-row bg-grey">
+                <input
+                  type="text"
+                  class="bg-grey"
+                  placeholder="Youtube Username"
+                />
+                <div class="platform-box bg-grey">
+                  <i class="fa-brands fa-youtube" style="color: #888888"></i>
+                </div>
+              </div>
+            </div>
+            <div class="card widgets">
+              <div class="card-hero-text">
+                <h2 class="card-title">Widgets Control</h2>
+                <p class="gray-text fs-350">Show/Hide Widgets</p>
+              </div>
+              <ul class="flex-col-gap5">
+                <div class="flex-row-gap5">
+                  <input type="checkbox" id="Quick" checked />
+                  <i
+                    class="fa-solid fa-square-check"
+                    style="color: #0075ff"
+                  ></i>
+                  <label for="Quick">Quick Draft</label>
+                </div>
+                <div class="flex-row-gap5">
+                  <input type="checkbox" id="Targets" checked />
+                  <i
+                    class="fa-solid fa-square-check"
+                    style="color: #0075ff"
+                  ></i>
+                  <label for="Targets">Yearly Targets</label>
+                </div>
+                <div class="flex-row-gap5">
+                  <input type="checkbox" id="Tickets" checked />
+                  <i
+                    class="fa-solid fa-square-check"
+                    style="color: #0075ff"
+                  ></i>
+                  <label for="Tickets">Tickets statistics</label>
+                </div>
+                <div class="flex-row-gap5">
+                  <input type="checkbox" id="News" checked />
+                  <i
+                    class="fa-solid fa-square-check"
+                    style="color: #0075ff"
+                  ></i>
+                  <label for="News">Latest News</label>
+                </div>
+                <div class="flex-row-gap5">
+                  <input type="checkbox" id="Tasks" />
+                  <i
+                    class="fa-solid fa-square-check"
+                    style="color: #0075ff"
+                  ></i>
+                  <label for="Tasks">Latest Tasks</label>
+                </div>
+                <div class="flex-row-gap5">
+                  <input type="checkbox" id="Search" checked />
+                  <i
+                    class="fa-solid fa-square-check"
+                    style="color: #0075ff"
+                  ></i>
+                  <label for="Search">Top Search</label>
+                </div>
+              </ul>
+            </div>
+            <div class="card Backup">
+              <div class="card-hero-text">
+                <h2 class="card-title">Backup Manager</h2>
+                <p class="gray-text fs-350">Control Backup Time And Location</p>
+              </div>
+              <div class="flex-col labeled-col">
+                <div class="flex-row backup-date">
+                  <input type="radio" name="backup timing" id="Daily" checked />
+                  <label for="Daily">Daily</label>
+                </div>
+                <div class="flex-row backup-date">
+                  <input type="radio" name="backup timing" id="Weekly" />
+                  <label for="Weekly">Weekly</label>
+                </div>
+                <div class="flex-row backup-date">
+                  <input type="radio" name="backup timing" id="Monthly" />
+                  <label for="Monthly">Monthly</label>
+                </div>
+              </div>
+              <hr />
+              <div class="col-to-row">
+                <input type="radio" name="Servers" id="server-1" />
+                <div class="backup-type-box transition">
+                  <label class="transition" for="server-1">
+                    <i class="fa-solid fa-server" style="color: #000000"></i>
+                    Megaman
+                  </label>
+                </div>
+                <input type="radio" name="Servers" id="server-2" checked />
+                <div class="backup-type-box transition">
+                  <label class="transition" for="server-2">
+                    <i class="fa-solid fa-server" style="color: #000000"></i>
+                    Zero
+                  </label>
+                </div>
+                <input type="radio" name="Servers" id="server-3" />
+                <div class="backup-type-box transition">
+                  <label class="transition" for="server-3">
+                    <i class="fa-solid fa-server" style="color: #000000"></i>
+                    Sigma
+                  </label>
+                </div>
+              </div>
+            </div>
+          </div>
+        </main>
+      </div>
+    </div>
+  </body>
+</html>

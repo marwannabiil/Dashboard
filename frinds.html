@@ -1,0 +1,687 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="stylesheet" href="css/index.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+      integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="icon" href="images/avatar.png" />
+    <title>Friends</title>
+  </head>
+
+  <body>
+    <div class="main-flex">
+      <aside class="aside flex-col">
+        <div class="elzero">
+          <h2>Elzero</h2>
+          <div class="ball"></div>
+        </div>
+        <ul class="list_parent flex-col">
+          <li class="list_item">
+            <a href="index.html"
+              ><i class="fa-regular fa-chart-bar" style="color: #000000"></i
+            ></a>
+            <a href="index.html" class="list_link fs-300">Dashboard</a>
+          </li>
+          <li class="list_item">
+            <a href="settings.html"
+              ><i class="fa-solid fa-gear" style="color: #000000"></i
+            ></a>
+            <a href="settings.html" class="list_link fs-300">Setting</a>
+          </li>
+          <li class="list_item">
+            <a href="profile.html"
+              ><i class="fa-regular fa-user" style="color: #000000"></i
+            ></a>
+            <a href="profile.html" class="list_link fs-300">profile</a>
+          </li>
+          <li class="list_item">
+            <a href="projects.html"
+              ><i class="fa-solid fa-diagram-project" style="color: #000000"></i
+            ></a>
+            <a href="projects.html" class="list_link fs-300">projects</a>
+          </li>
+          <li class="list_item">
+            <a href="courses.html"
+              ><i class="fa-solid fa-graduation-cap" style="color: #000000"></i
+            ></a>
+            <a href="courses.html" class="list_link fs-300">courses</a>
+          </li>
+          <li class="list_item active">
+            <a href="frinds.html"
+              ><i class="fa-regular fa-circle-user" style="color: #000000"></i
+            ></a>
+            <a href="frinds.html" class="list_link fs-300">friends</a>
+          </li>
+          <li class="list_item">
+            <a href="files.html"
+              ><i class="fa-regular fa-file" style="color: #000000"></i
+            ></a>
+            <a href="files.html" class="list_link fs-300">files</a>
+          </li>
+          <li class="list_item">
+            <a href="plans.html"
+              ><i class="fa-regular fa-credit-card" style="color: #000000"></i
+            ></a>
+            <a href="plans.html" class="list_link fs-300">plans</a>
+          </li>
+        </ul>
+      </aside>
+      <div class="content">
+        <nav class="nav container nav-flex">
+          <form>
+            <i class="fa-solid fa-magnifying-glass" style="color: #888888"></i>
+            <input type="text" placeholder="Type A Keyword" />
+          </form>
+          <div class="wrapper">
+            <span class="bell"><i class="fa-regular fa-bell"></i></span>
+            <span><img src="images/avatar.png" alt="a person img" /></span>
+          </div>
+        </nav>
+        <main class="container">
+          <h1>Friends</h1>
+          <div class="small_card_parent">
+            <div class="small-card p-15">
+              <div class="flex-row-gap5">
+                <span class="s-card-i transition"
+                  ><i class="fa-solid fa-phone" style="color: #666666"></i
+                ></span>
+                <span class="s-card-i transition"
+                  ><i class="fa-regular fa-envelope" style="color: #727272"></i
+                ></span>
+              </div>
+              <div class="flex-col-centered">
+                <span class="friend-image mb-5"
+                  ><img
+                    class="rad-50 m-center"
+                    src="images/friend-01.jpg"
+                    alt="friend-image"
+                /></span>
+                <div class="fw-500">Ahmed Nasser</div>
+                <p class="gray-text fs-200 mb-3">JavaScript Developer</p>
+              </div>
+              <hr />
+              <div class="flex-spaced">
+                <div class="flex-col friend-stats">
+                  <div class="flex-row-gap3">
+                    <div class="fs-350">
+                      <i
+                        class="fa-regular fa-face-smile"
+                        style="color: #000000"
+                      ></i>
+                    </div>
+                    <div class="fs-300">99 Friend</div>
+                  </div>
+                  <div class="flex-row-gap3">
+                    <div class="fs-350">
+                      <i
+                        class="fa-solid fa-code-commit"
+                        style="color: #000000"
+                      ></i>
+                    </div>
+                    <div class="fs-300">15 Projects</div>
+                  </div>
+                  <div class="flex-row-gap3">
+                    <div class="fs-350">
+                      <i
+                        class="fa-regular fa-newspaper"
+                        style="color: #000000"
+                      ></i>
+                    </div>
+                    <div class="fs-300">25 Articles</div>
+                  </div>
+                </div>
+                <div class="vip">VIP</div>
+              </div>
+              <hr />
+              <div class="flex-spaced">
+                <p class="fs-200 gray-text">Joined 02/10/2021</p>
+                <div class="flex-row-gap3">
+                  <button class="btn bg-blue mb-0">Profile</button>
+                  <button class="btn bg-red mb-0">Remove</button>
+                </div>
+              </div>
+            </div>
+            <div class="small-card p-15">
+              <div class="flex-row-gap5">
+                <span class="s-card-i transition"
+                  ><i class="fa-solid fa-phone" style="color: #666666"></i
+                ></span>
+                <span class="s-card-i transition"
+                  ><i class="fa-regular fa-envelope" style="color: #727272"></i
+                ></span>
+              </div>
+              <div class="flex-col-centered">
+                <span class="friend-image mb-5"
+                  ><img
+                    class="rad-50 m-center"
+                    src="images/friend-02.jpg"
+                    alt="friend-image"
+                /></span>
+                <div class="fw-500">Omar Fathy</div>
+                <p class="gray-text fs-200 mb-3">Cloud Developer</p>
+              </div>
+              <hr />
+              <div class="flex-col friend-stats">
+                <div class="flex-row-gap3">
+                  <div class="fs-350">
+                    <i
+                      class="fa-regular fa-face-smile"
+                      style="color: #000000"
+                    ></i>
+                  </div>
+                  <div class="fs-300">30 Friend</div>
+                </div>
+                <div class="flex-row-gap3">
+                  <div class="fs-350">
+                    <i
+                      class="fa-solid fa-code-commit"
+                      style="color: #000000"
+                    ></i>
+                  </div>
+                  <div class="fs-300">11 Projects</div>
+                </div>
+                <div class="flex-row-gap3">
+                  <div class="fs-350">
+                    <i
+                      class="fa-regular fa-newspaper"
+                      style="color: #000000"
+                    ></i>
+                  </div>
+                  <div class="fs-300">12 Articles</div>
+                </div>
+              </div>
+              <hr />
+              <div class="flex-spaced">
+                <p class="fs-200 gray-text">Joined 02/08/2020</p>
+                <div class="flex-row-gap3">
+                  <button class="btn bg-blue mb-0">Profile</button>
+                  <button class="btn bg-red mb-0">Remove</button>
+                </div>
+              </div>
+            </div>
+            <div class="small-card p-15">
+              <div class="flex-row-gap5">
+                <span class="s-card-i transition"
+                  ><i class="fa-solid fa-phone" style="color: #666666"></i
+                ></span>
+                <span class="s-card-i transition"
+                  ><i class="fa-regular fa-envelope" style="color: #727272"></i
+                ></span>
+              </div>
+              <div class="flex-col-centered">
+                <span class="friend-image mb-5"
+                  ><img
+                    class="rad-50 m-center"
+                    src="images/friend-03.jpg"
+                    alt="friend-image"
+                /></span>
+                <div class="fw-500">Omar Ahmed</div>
+                <p class="gray-text fs-200 mb-3">Mobile Developer</p>
+              </div>
+              <hr />
+              <div class="flex-col friend-stats">
+                <div class="flex-row-gap3">
+                  <div class="fs-350">
+                    <i
+                      class="fa-regular fa-face-smile"
+                      style="color: #000000"
+                    ></i>
+                  </div>
+                  <div class="fs-300">80 Friend</div>
+                </div>
+                <div class="flex-row-gap3">
+                  <div class="fs-350">
+                    <i
+                      class="fa-solid fa-code-commit"
+                      style="color: #000000"
+                    ></i>
+                  </div>
+                  <div class="fs-300">20 Projects</div>
+                </div>
+                <div class="flex-row-gap3">
+                  <div class="fs-350">
+                    <i
+                      class="fa-regular fa-newspaper"
+                      style="color: #000000"
+                    ></i>
+                  </div>
+                  <div class="fs-300">18 Articles</div>
+                </div>
+              </div>
+              <hr />
+              <div class="flex-spaced">
+                <p class="fs-200 gray-text">Joined 02/06/2020</p>
+                <div class="flex-row-gap3">
+                  <button class="btn bg-blue mb-0">Profile</button>
+                  <button class="btn bg-red mb-0">Remove</button>
+                </div>
+              </div>
+            </div>
+            <div class="small-card p-15">
+              <div class="flex-row-gap5">
+                <span class="s-card-i transition"
+                  ><i class="fa-solid fa-phone" style="color: #666666"></i
+                ></span>
+                <span class="s-card-i transition"
+                  ><i class="fa-regular fa-envelope" style="color: #727272"></i
+                ></span>
+              </div>
+              <div class="flex-col-centered">
+                <span class="friend-image mb-5"
+                  ><img
+                    class="rad-50 m-center"
+                    src="images/friend-04.jpg"
+                    alt="friend-image"
+                /></span>
+                <div class="fw-500">Shady Nabil</div>
+                <p class="gray-text fs-200 mb-3">Back-End Developer</p>
+              </div>
+              <hr />
+              <div class="flex-col friend-stats">
+                <div class="flex-row-gap3">
+                  <div class="fs-350">
+                    <i
+                      class="fa-regular fa-face-smile"
+                      style="color: #000000"
+                    ></i>
+                  </div>
+                  <div class="fs-300">70 Friend</div>
+                </div>
+                <div class="flex-row-gap3">
+                  <div class="fs-350">
+                    <i
+                      class="fa-solid fa-code-commit"
+                      style="color: #000000"
+                    ></i>
+                  </div>
+                  <div class="fs-300">30 Projects</div>
+                </div>
+                <div class="flex-row-gap3">
+                  <div class="fs-350">
+                    <i
+                      class="fa-regular fa-newspaper"
+                      style="color: #000000"
+                    ></i>
+                  </div>
+                  <div class="fs-300">18 Articles</div>
+                </div>
+              </div>
+              <hr />
+              <div class="flex-spaced">
+                <p class="fs-200 gray-text">Joined 02/06/2020</p>
+                <div class="flex-row-gap3">
+                  <button class="btn bg-blue mb-0">Profile</button>
+                  <button class="btn bg-red mb-0">Remove</button>
+                </div>
+              </div>
+            </div>
+            <div class="small-card p-15">
+              <div class="flex-row-gap5">
+                <span class="s-card-i transition"
+                  ><i class="fa-solid fa-phone" style="color: #666666"></i
+                ></span>
+                <span class="s-card-i transition"
+                  ><i class="fa-regular fa-envelope" style="color: #727272"></i
+                ></span>
+              </div>
+              <div class="flex-col-centered">
+                <span class="friend-image mb-5"
+                  ><img
+                    class="rad-50 m-center"
+                    src="images/friend-05.jpg"
+                    alt="friend-image"
+                /></span>
+                <div class="fw-500">Mohamed Ibrahim</div>
+                <p class="gray-text fs-200 mb-3">Algorithm Developer</p>
+              </div>
+              <hr />
+              <div class="flex-col friend-stats">
+                <div class="flex-row-gap3">
+                  <div class="fs-350">
+                    <i
+                      class="fa-regular fa-face-smile"
+                      style="color: #000000"
+                    ></i>
+                  </div>
+                  <div class="fs-300">80 Friend</div>
+                </div>
+                <div class="flex-row-gap3">
+                  <div class="fs-350">
+                    <i
+                      class="fa-solid fa-code-commit"
+                      style="color: #000000"
+                    ></i>
+                  </div>
+                  <div class="fs-300">30 Projects</div>
+                </div>
+                <div class="flex-row-gap3">
+                  <div class="fs-350">
+                    <i
+                      class="fa-regular fa-newspaper"
+                      style="color: #000000"
+                    ></i>
+                  </div>
+                  <div class="fs-300">18 Articles</div>
+                </div>
+              </div>
+              <hr />
+              <div class="flex-spaced">
+                <p class="fs-200 gray-text">Joined 28/08/2020</p>
+                <div class="flex-row-gap3">
+                  <button class="btn bg-blue mb-0">Profile</button>
+                  <button class="btn bg-red mb-0">Remove</button>
+                </div>
+              </div>
+            </div>
+            <div class="small-card p-15">
+              <div class="flex-row-gap5">
+                <span class="s-card-i transition"
+                  ><i class="fa-solid fa-phone" style="color: #666666"></i
+                ></span>
+                <span class="s-card-i transition"
+                  ><i class="fa-regular fa-envelope" style="color: #727272"></i
+                ></span>
+              </div>
+              <div class="flex-col-centered">
+                <span class="friend-image mb-5"
+                  ><img
+                    class="rad-50 m-center"
+                    src="images/friend-04.jpg"
+                    alt="friend-image"
+                /></span>
+                <div class="fw-500">Amr Hendawy</div>
+                <p class="gray-text fs-200 mb-3">Back-End Developer</p>
+              </div>
+              <hr />
+              <div class="flex-col friend-stats">
+                <div class="flex-row-gap3">
+                  <div class="fs-350">
+                    <i
+                      class="fa-regular fa-face-smile"
+                      style="color: #000000"
+                    ></i>
+                  </div>
+                  <div class="fs-300">70 Friend</div>
+                </div>
+                <div class="flex-row-gap3">
+                  <div class="fs-350">
+                    <i
+                      class="fa-solid fa-code-commit"
+                      style="color: #000000"
+                    ></i>
+                  </div>
+                  <div class="fs-300">30 Projects</div>
+                </div>
+                <div class="flex-row-gap3">
+                  <div class="fs-350">
+                    <i
+                      class="fa-regular fa-newspaper"
+                      style="color: #000000"
+                    ></i>
+                  </div>
+                  <div class="fs-300">18 Articles</div>
+                </div>
+              </div>
+              <hr />
+              <div class="flex-spaced">
+                <p class="fs-200 gray-text">Joined 28/06/2020</p>
+                <div class="flex-row-gap3">
+                  <button class="btn bg-blue mb-0">Profile</button>
+                  <button class="btn bg-red mb-0">Remove</button>
+                </div>
+              </div>
+            </div>
+            <div class="small-card p-15">
+              <div class="flex-row-gap5">
+                <span class="s-card-i transition"
+                  ><i class="fa-solid fa-phone" style="color: #666666"></i
+                ></span>
+                <span class="s-card-i transition"
+                  ><i class="fa-regular fa-envelope" style="color: #727272"></i
+                ></span>
+              </div>
+              <div class="flex-col-centered">
+                <span class="friend-image mb-5"
+                  ><img
+                    class="rad-50 m-center"
+                    src="images/friend-02.jpg"
+                    alt="friend-image"
+                /></span>
+                <div class="fw-500">Mahmoud Adel</div>
+                <p class="gray-text fs-200 mb-3">Cloud Developer</p>
+              </div>
+              <hr />
+              <div class="flex-col friend-stats">
+                <div class="flex-row-gap3">
+                  <div class="fs-350">
+                    <i
+                      class="fa-regular fa-face-smile"
+                      style="color: #000000"
+                    ></i>
+                  </div>
+                  <div class="fs-300">30 Friend</div>
+                </div>
+                <div class="flex-row-gap3">
+                  <div class="fs-350">
+                    <i
+                      class="fa-solid fa-code-commit"
+                      style="color: #000000"
+                    ></i>
+                  </div>
+                  <div class="fs-300">11 Projects</div>
+                </div>
+                <div class="flex-row-gap3">
+                  <div class="fs-350">
+                    <i
+                      class="fa-regular fa-newspaper"
+                      style="color: #000000"
+                    ></i>
+                  </div>
+                  <div class="fs-300">12 Articles</div>
+                </div>
+              </div>
+              <hr />
+              <div class="flex-spaced">
+                <p class="fs-200 gray-text">Joined 02/08/2020</p>
+                <div class="flex-row-gap3">
+                  <button class="btn bg-blue mb-0">Profile</button>
+                  <button class="btn bg-red mb-0">Remove</button>
+                </div>
+              </div>
+            </div>
+            <div class="small-card p-15">
+              <div class="flex-row-gap5">
+                <span class="s-card-i transition"
+                  ><i class="fa-solid fa-phone" style="color: #666666"></i
+                ></span>
+                <span class="s-card-i transition"
+                  ><i class="fa-regular fa-envelope" style="color: #727272"></i
+                ></span>
+              </div>
+              <div class="flex-col-centered">
+                <span class="friend-image mb-5"
+                  ><img
+                    class="rad-50 m-center"
+                    src="images/friend-05.jpg"
+                    alt="friend-image"
+                /></span>
+                <div class="fw-500">Ahmed Abuzaid</div>
+                <p class="gray-text fs-200 mb-3">Content Creator</p>
+              </div>
+              <hr />
+              <div class="flex-col friend-stats">
+                <div class="flex-row-gap3">
+                  <div class="fs-350">
+                    <i
+                      class="fa-regular fa-face-smile"
+                      style="color: #000000"
+                    ></i>
+                  </div>
+                  <div class="fs-300">80 Friend</div>
+                </div>
+                <div class="flex-row-gap3">
+                  <div class="fs-350">
+                    <i
+                      class="fa-solid fa-code-commit"
+                      style="color: #000000"
+                    ></i>
+                  </div>
+                  <div class="fs-300">30 Projects</div>
+                </div>
+                <div class="flex-row-gap3">
+                  <div class="fs-350">
+                    <i
+                      class="fa-regular fa-newspaper"
+                      style="color: #000000"
+                    ></i>
+                  </div>
+                  <div class="fs-300">18 Articles</div>
+                </div>
+              </div>
+              <hr />
+              <div class="flex-spaced">
+                <p class="fs-200 gray-text">Joined 28/08/2020</p>
+                <div class="flex-row-gap3">
+                  <button class="btn bg-blue mb-0">Profile</button>
+                  <button class="btn bg-red mb-0">Remove</button>
+                </div>
+              </div>
+            </div>
+            <div class="small-card p-15">
+              <div class="flex-row-gap5">
+                <span class="s-card-i transition"
+                  ><i class="fa-solid fa-phone" style="color: #666666"></i
+                ></span>
+                <span class="s-card-i transition"
+                  ><i class="fa-regular fa-envelope" style="color: #727272"></i
+                ></span>
+              </div>
+              <div class="flex-col-centered">
+                <span class="friend-image mb-5"
+                  ><img
+                    class="rad-50 m-center"
+                    src="images/friend-01.jpg"
+                    alt="friend-image"
+                /></span>
+                <div class="fw-500">Gareeb Elshiekh</div>
+                <p class="gray-text fs-200 mb-3">JavaScript Developer</p>
+              </div>
+              <hr />
+              <div class="flex-spaced">
+                <div class="flex-col friend-stats">
+                  <div class="flex-row-gap3">
+                    <div class="fs-350">
+                      <i
+                        class="fa-regular fa-face-smile"
+                        style="color: #000000"
+                      ></i>
+                    </div>
+                    <div class="fs-300">90 Friend</div>
+                  </div>
+                  <div class="flex-row-gap3">
+                    <div class="fs-350">
+                      <i
+                        class="fa-solid fa-code-commit"
+                        style="color: #000000"
+                      ></i>
+                    </div>
+                    <div class="fs-300">15 Projects</div>
+                  </div>
+                  <div class="flex-row-gap3">
+                    <div class="fs-350">
+                      <i
+                        class="fa-regular fa-newspaper"
+                        style="color: #000000"
+                      ></i>
+                    </div>
+                    <div class="fs-300">25 Articles</div>
+                  </div>
+                </div>
+                <div class="vip">VIP</div>
+              </div>
+              <hr />
+              <div class="flex-spaced">
+                <p class="fs-200 gray-text">Joined 02/10/2020</p>
+                <div class="flex-row-gap3">
+                  <button class="btn bg-blue mb-0">Profile</button>
+                  <button class="btn bg-red mb-0">Remove</button>
+                </div>
+              </div>
+            </div>
+            <div class="small-card p-15">
+              <div class="flex-row-gap5">
+                <span class="s-card-i transition"
+                  ><i class="fa-solid fa-phone" style="color: #666666"></i
+                ></span>
+                <span class="s-card-i transition"
+                  ><i class="fa-regular fa-envelope" style="color: #727272"></i
+                ></span>
+              </div>
+              <div class="flex-col-centered">
+                <span class="friend-image mb-5"
+                  ><img
+                    class="rad-50 m-center"
+                    src="images/friend-05.jpg"
+                    alt="friend-image"
+                /></span>
+                <div class="fw-500">Hamza</div>
+                <p class="gray-text fs-200 mb-3">Front-End Developer</p>
+              </div>
+              <hr />
+              <div class="flex-col friend-stats">
+                <div class="flex-row-gap3">
+                  <div class="fs-350">
+                    <i
+                      class="fa-regular fa-face-smile"
+                      style="color: #000000"
+                    ></i>
+                  </div>
+                  <div class="fs-300">80 Friend</div>
+                </div>
+                <div class="flex-row-gap3">
+                  <div class="fs-350">
+                    <i
+                      class="fa-solid fa-code-commit"
+                      style="color: #000000"
+                    ></i>
+                  </div>
+                  <div class="fs-300">20 Projects</div>
+                </div>
+                <div class="flex-row-gap3">
+                  <div class="fs-350">
+                    <i
+                      class="fa-regular fa-newspaper"
+                      style="color: #000000"
+                    ></i>
+                  </div>
+                  <div class="fs-300">18 Articles</div>
+                </div>
+              </div>
+              <hr />
+              <div class="flex-spaced">
+                <p class="fs-200 gray-text">Joined 02/06/2020</p>
+                <div class="flex-row-gap3">
+                  <button class="btn bg-blue mb-0">Profile</button>
+                  <button class="btn bg-red mb-0">Remove</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </main>
+      </div>
+    </div>
+  </body>
+</html>
